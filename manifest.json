@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "version": "1.3.9",
+    "name": "Leads tracker",
+
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "img/thumbnail.png",
+        "default_title": "Leads tracker"
+    },
+    "host_permissions": [
+        "https://*/*"
+    ],
+    "permissions": [
+        "tabs", "activeTab", "tabGroups"
+    ],
+
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+S",
+            "mac": "MacCtrl+Shift+S"
+          },
+          "description": "Opens index.html"
+        },
+        "do-something": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+T",
+              "mac": "MacCtrl+Shift+T"
+            },
+            "description": "add Arpakshad"
+          }
+      }
+
+}
+
+
